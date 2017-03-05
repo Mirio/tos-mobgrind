@@ -1,0 +1,7 @@
+appdirs
+beautifulsoup4
+bs4
+packaging
+pyparsing
+requests
+six
