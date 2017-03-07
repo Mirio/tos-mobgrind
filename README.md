@@ -1,12 +1,12 @@
 Tree of Savior Grinding Guide.
 ---
 The mob grinding is better than quest method.
-Below my personal grinding guide.
+Below my personal grinding guide:
+- Start in Klapedia.
+- 1-8 Perform primary quests and kill all mob in West Siauliai Woods
+- 9-15 Perform primary quests in Klapedia..
+- 15-20 Cristal Mine F1 (focus on raflower, 2% exp ea)
 
-Start in Klapedia.
-1-8 Perform primary quests and kill all mob in West Siauliai Woods
-9-15 Perform primary quests in Klapedia..
-15-20 Cristal Mine F1 (focus on raflower, 2% exp ea)
 **WIP**
 
 You can make your own grinding guide, check the link below:
