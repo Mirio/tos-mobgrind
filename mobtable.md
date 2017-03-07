@@ -1,4 +1,4 @@
-## Last Update: 06/03/2017 
+## Last Update: 07/03/2017 
 Name | Level | HP | Base Exp | Job Exp | Element | Locations 
 :-: | :-: | :-: |  :-: | :-: | :-: | :-:
 Starving Ellaganos | 200 | 13398268 | 8050 | 7440 | Dark | Videntis Shrine (?, 60s), Mokusul Chamber (?, 60s) 

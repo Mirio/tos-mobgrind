@@ -169,7 +169,8 @@ class TosMobgrind:
 
         print "Exporting Grindlist"
         filecontent = ("## Last Update: %s \nLevel | Mob at 2%% | Mob at 1%% | "
-                       "Mob at 0.5%%\n:-:|:-:|:-:|:-:\n" % (today))
+                       "Mob at 0.5%% | Mob at 0.2%%|\n:-:|:-:|:-:|:-:|:-:\n" % (
+                           today))
         for lv in xrange(1, self.get_lastdivisible(
                             value=max(sorted_exptable)["lv"],
                             base=self.exp_tablebase)):
@@ -180,7 +181,10 @@ class TosMobgrind:
                     percent=1, value=self.db["exp"][lv]["req"]))
                 perc0 = self.find_mobs(exp_req=self.get_percent(
                     percent=0.5, value=self.db["exp"][lv]["req"]))
-                filecontent += "%s | %s | %s | %s\n" % (lv, perc2, perc1, perc0)
+                perc02 = self.find_mobs(exp_req=self.get_percent(
+                    percent=0.2, value=self.db["exp"][lv]["req"]))
+                filecontent += "%s | %s | %s | %s | %s\n" % (lv, perc2, perc1,
+                                                             perc0, perc02)
         self.write_document(text=filecontent, filename="grindtable.md")
         print "---> Done."
 

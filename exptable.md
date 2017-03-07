@@ -1,4 +1,4 @@
-## Last Update: 06/03/2017 
+## Last Update: 07/03/2017 
 Level | Exp Required
 :-:|:-:
 0 | 0
